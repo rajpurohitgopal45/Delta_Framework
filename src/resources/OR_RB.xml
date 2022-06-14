@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<object_repository>
+
+    <page name="check24">
+        <element name="btnYes" by="xpath" identifier="//a[text()='Akzeptieren']"/>
+        <element name="btnweiter1" by="xpath" identifier="//span[text()='1.']/parent::div/following-sibling::div[2]/div[3]/a"/>
+        <element name="txtEmail" by="xpath" identifier="//*[@id='cl_login']"/>
+        <element name="btnweiter2" by="xpath" identifier="//*[text()=' weiter ']/parent::button"/>
+
+        <element name="checkIchMochte" by="xpath" identifier="//*[text()='Ich möchte als Gast fortfahren']"/>
+
+        <element name="btnweiter3" by="xpath" identifier="//*[@id='c24-uli-register-btn']"/>
+        <element name="btnweiter4" by="xpath" identifier="//*[text()='weiter']"/>
+
+        <element name="male" by="xpath" identifier="//*[text()='Herr']"/>
+        <element name="firstName" by="xpath" identifier="//*[@id='GIVEN_NAME']"/>
+        <element name="lastName" by="xpath" identifier="//*[@id='LAST_NAME']"/>
+        <element name="dob" by="xpath" identifier="//*[@id='DATE_OF_BIRTH']"/>
+
+        <element name="phone" by="xpath" identifier="//*[@id='PHONENUMBER_MOBILE']"/>
+        <element name="btnweiter5" by="xpath" identifier="//a[text()='weiter']"/>
+        <element name="lastPage" by="xpath" identifier="//h2[text()='Weitere persönliche Angaben']"/>
+        <element name="err" by="xpath" identifier="//div[@type='ERROR']"/>
+    </page>
+
+</object_repository>

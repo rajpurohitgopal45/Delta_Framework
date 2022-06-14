@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listeners.TestListners"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="DCF Manager(failed)" verbose="0">
+    <classes>
+      <class name="Project.Service">
+        <methods>
+          <include name="Asset_Finance"/>
+        </methods>
+      </class> <!-- Project.Service -->
+    </classes>
+  </test> <!-- DCF Manager(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
